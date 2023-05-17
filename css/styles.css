@@ -1,0 +1,78 @@
+
+.button-class{
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.btn1{
+    width: 40%;
+    border-radius: 30px;
+    background-color: #9796EC;
+    border-color: #9796EC;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn1:hover{
+    background-color: #C3FBFF;
+    color: #021947;
+}
+
+.container-fluid {
+    padding: 2% 10%;
+  }
+
+.circle1{
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    margin-left: -6rem;
+}
+
+
+.sub-text{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 10% 0%;
+    text-align: center;
+}
+
+.feature-title{
+    font-size: 2rem;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 12%;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.5px;
+
+  }
+
+  
+#landing-section{
+    background-color: #021947 ;
+    padding-bottom: 10%;
+}
+
+#landing-section h1{
+    color: honeydew;
+
+}
+
+#landing-section h3{
+    color: honeydew;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+}
+
+.navbar{
+    margin-top: 5%;
+}
+
+
