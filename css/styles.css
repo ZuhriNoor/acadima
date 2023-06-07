@@ -1,3 +1,14 @@
+#about-section{
+    background-color: #C3FBFF;
+    padding-bottom: 10%;
+}
+
+#about-section p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 
 .button-class{
     padding: 5% 5%;
@@ -30,13 +41,51 @@
     margin-left: -6rem;
 }
 
+.circle2{
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    right: -1rem;
+}
 
-.sub-text{
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    margin: 10% 0%;
+.circle3{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    right: 4rem;
+    bottom: 10rem;
+}
+
+#contact-section{
+    background-color: #021947;
+    color: honeydew;
+    padding-bottom: 10%;
+}
+
+#contact-section h5{
     text-align: center;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-p{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+hr {
+    height: 5px;
+    border: 0px solid #021947; 
+    border-top-width: 1px;
+}
+
+i{
+    height: 2rem;
+    width: 2rem;
 }
 
 .feature-title{
@@ -46,7 +95,6 @@
     font-weight: 600;
     text-align: center;
     letter-spacing: 1.5px;
-
   }
 
   
@@ -71,8 +119,35 @@
     font-size: 1.3rem;
 }
 
-.navbar{
-    margin-top: 5%;
+@media only screen and (max-width: 720px){
+    .navbar{
+        margin-top: 5%;
+    }
+}
+
+.services-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;      
+    font-weight: 300;   
+}
+
+.sub-text{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin: 10% 0%;
+    text-align: center;
+}
+
+#services-section{
+    padding-bottom: 10%;
+}
+
+#services-section p{
+    border-bottom: 5px solid #021947;
+    border-radius: 50%;
+    margin: 1.3rem 0;
 }
 
 
