@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Prompt&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/262c25972a.js" crossorigin="anonymous"></script>
+
 
     <title>Acadima Education</title>
 </head>
@@ -25,7 +28,7 @@
 
     <section id="landing-section">
       <div class="container-fluid">
-        <div>
+        
           <header>
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #021947;">
                 <a class="navbar-brand" href="#">ACADIMA EDUCATION</a>
@@ -35,37 +38,39 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#landing-section">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="#about-section">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link" href="#services-section">OUR SERVICES</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
+                      <a class="nav-link" href="#contact-section">CONTACT US</a>
                     </li>
                   </ul>
                 </div>
               </nav>
         </header>
             <h1 class="feature-title"> Study in India and abroad</h1>
+            <img class="circle2" src="images/circle.png" alt="circle">
             <h3 class="sub-text"> We are here to guide you.<br> <br>Select your stream</h3>
             <img class="circle1" src="images/circle.png" alt="circle">
+            <img class="circle3" src="images/circle.png" alt="circle">
             <div class="row">
               <div class="button-class col-md-4">
-                <button class="btn1 btn btn-light"> Commerce </button>
+                <a href="commerce.html"><button id="button1" type="button" class="btn1 btn btn-light"> Commerce </button></a>
               </div>
               <div class="button-class col-md-4">
-                <button class="btn1 btn btn-light">  Science  </button>
+                <button type="button" class="btn1 btn btn-light">  Science  </button>
               </div>
+              
               <div class="button-class col-md-4">
-                <button class="btn1 btn btn-light"> Humanities </button>
+                <button type="button" class="btn1 btn btn-light"> Humanities </button>
               </div>
             </div>
             
-        
       </div>
         
     </section>
@@ -73,25 +78,58 @@
     
 
     <section id="about-section">
-        <div>
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <div class="container-fluid">
+            <h1 class="feature-title">About Us</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
         </div>
     </section>
     
     <section id="services-section">
-        <h1> Our Services</h1>
-        <h3> Career Counselling</h3>
-        <hr>
-        <h3> Spot Admission</h3>
-        <hr>
-        <h3>Bank loan assistance</h3>
-        <hr>
-        <h3>Free Campus Visit</h3>
+      <div class="container-fluid">
+        <h1 class="feature-title"> Our Services</h1>
+        <br>
+        <h3 class="services-text"> Career Counselling</h3>
+        <p></p>
+        <h3 class="services-text"> Spot Admission</h3>
+        <p></p>
+        <h3 class="services-text">Bank loan assistance</h3>
+        <p></p>
+        <h3 class="services-text">Free Campus Visit</h3>
+      </div>
+        
     </section>
 
-    <section id="contact-us">
-        <h5> Call: 894 456 1355</h5>
+    <section id="contact-section">
+      <div class="container-fluid">
+        <h1 class="feature-title">Contact Us</h1>
+        <br>
+        <h5> <i class="fa-solid fa-phone"></i> 894 456 1355</h5>
+        <h5> <i class="fa-solid fa-envelope"></i> raheem@gmail.com</h5>
+    
+        <h1 class="feature-title">Our Offices</h1>
+
+        <h5><i class="fa-solid fa-building"></i> 375 Building, Tree Street, Mahi, India</h5>
+      </div>
+        
     </section>
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <p footer-p>
+          <i class="social-icon fa-brands fa-twitter"></i>
+          <i class="social-icon fa-brands fa-facebook"></i>
+          <i class="social-icon fa-brands fa-instagram"></i>
+          <i class="social-icon fa-solid fa-envelope"></i>
+        </p>
+        <p class="footer-p">© Copyright Acadima Education</p>
+      </div>
+      
+    </footer>
+  
 </body>
+
 </html>
