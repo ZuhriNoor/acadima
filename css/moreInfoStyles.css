@@ -163,7 +163,7 @@ html,body
     background-color: #fff;
     font-size: 15px;
     font-weight: 300;
-    color: #8D8D8D;
+    color: #212121;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     margin-top: 16px;
@@ -178,7 +178,8 @@ html,body
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
-    background-color: #495056;
+    background-color: #C3FBFF;
+    color: black;
     outline: none !important;
     border: none !important;
      box-shadow: none;
